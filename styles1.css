@@ -1,0 +1,510 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 20px;
+  font-size: 40px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  color: black;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.navigation{
+  position: absolute;
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    padding-left: 1120px;
+    top: 0px;
+    margin-top: 2px;
+}
+
+
+.login-btn{
+  background-color: #fbefcc;
+ 
+  width: 125px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  text-transform: uppercase;
+  transition: all .2s;
+  cursor: pointer;
+
+}
+.donate-btn{
+  background-color: #f9ccac;
+  
+  width: 125px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  text-transform: uppercase;
+  transition: all .2s;
+  cursor: pointer;
+}
+.shop-btn {
+  background-color: #f4a688;
+  
+  width: 125px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  text-transform: uppercase;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.login-btn:hover,.donate-btn:hover,.shop-btn:hover,.arrow1:hover {
+  transform: scale(1.06);
+}
+
+.earth {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 60vh;
+}  
+
+.earth img{
+  width: 100%;
+  height: 60vh;
+}
+
+.logo{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.logo img{
+
+  position: relative;
+  padding-left: 20px;
+  width: 210px;
+  height: 120px;
+}
+
+.logo:hover {
+  border: 1px solid #fbefcc;
+}
+
+.content {
+  position: absolute;
+  top: 350px;
+  color:white;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content p {
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box {
+  position: absolute;
+  margin-left: 200px;
+  top: 720px;
+  width: 500px;
+  height: 510px;
+  background-color: #e0e2e4;
+  cursor: pointer;
+}
+
+
+.box1 {
+  position: absolute;
+  margin-left: 800px;
+  top: 720px;
+  width: 500px;
+  height: 510px;
+  background-color: #e0e2e4; 
+  cursor: pointer;
+}
+
+.box2 {
+  position: absolute;
+  margin-left: 200px;
+  top: 1300px;
+  width: 500px;
+  height: 510px;
+  background-color: #e0e2e4;
+  cursor: pointer;
+}
+
+
+.box3 {
+  position: absolute;
+  margin-left: 800px;
+  top: 1300px;
+  width: 500px;
+  height: 510px;
+  background-color: #e0e2e4;
+  cursor: pointer;
+}
+
+.wildlife {
+  position: absolute;
+  opacity: 80%;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+}  
+
+.wildlife img{
+ 
+  width: 500px;
+  height: 300px;
+}
+
+.pets {
+  position: absolute;
+  opacity: 80%;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+}  
+
+.pets img{
+ 
+  width: 500px;
+  height: 300px;
+}
+
+.plants {
+  position: absolute;
+  opacity: 80%;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+}  
+
+.plants img{
+ 
+  width: 500px;
+  height: 300px;
+}
+
+.shop {
+  position: absolute;
+  opacity: 80%;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+}  
+
+.shop img{
+ 
+  width: 500px;
+  height: 300px;
+}
+
+.one{
+  position: absolute;
+  top: 850px;
+  left: 295px;
+  font-size: 32px;
+}
+
+.two{
+  position: absolute;
+  top: 850px;
+  left: 910px;
+  font-size: 32px;
+}
+
+.three{
+  position: absolute;
+  top: 1440px;
+  left: 320px;
+  font-size: 32px;
+}
+
+.four{
+  text-align: center;
+  position: absolute;
+  top: 1440px;
+  left: 930px;
+  font-size: 32px;
+}
+
+.choose {
+  position: absolute;
+  width: 400px;
+  top: 1060px;
+  left: 240px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.choose1 {
+  position: absolute;
+  width: 400px;
+  top: 1060px;
+  left: 850px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.choose2 {
+  position: absolute;
+  width: 400px;
+  top: 1640px;
+  left: 240px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.choose3 {
+  position: absolute;
+  width: 400px;
+  top: 1640px;
+  left: 850px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.b1 {
+  position: absolute;
+  top: 1150px;
+  left: 240px;
+  width: 400px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #ff7b25;
+   border: 0;
+   cursor: pointer;
+}
+
+.b2 {
+  position: absolute;
+  top: 1150px;
+  left: 850px;
+  width: 400px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #ff7b25;
+   border: 0;
+   cursor: pointer;
+}
+
+.b3{
+  position: absolute;
+  top: 1730px;
+  margin-left: 240px;
+  width: 400px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #ff7b25;
+   border: 0;
+   cursor: pointer;
+}
+
+
+.b4 {
+  position: absolute;
+  top: 1730px;
+  left: 850px;
+  width: 400px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #ff7b25;
+  border: 0;
+  cursor: pointer;
+}
+
+.b1:hover,.b2:hover,.b3:hover,.b4:hover {
+ transform: scale(1.06);  
+}
+
+.b1:hover,.b2:hover,.b3:hover,.b4:hover {
+ opacity: 80%;
+}
+
+.b1,.b2,.b3,.b4 {
+ font-family: serif;
+}
+
+.foot {
+  margin-top: 1700px;
+  height: 140px;
+  width: 50%;
+   cursor: pointer;
+}
+
+.foot1 {
+  margin-top: -140px;
+  height: 140px;
+  width: 50%;
+  margin-left: 50%;
+   cursor: pointer;
+}
+
+.logo1 {
+    padding-top: 70px;
+}
+
+.logo1 img{
+
+  position: relative;
+  padding-left: 43%;
+  width: 210px;
+  height: 120px;
+}
+
+.line {
+  text-align: center;
+  padding-top: 30px;
+  opacity: 80%;
+}
+
+.end {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.first {
+  width: 49%;
+  text-align: right;
+  position: absolute;
+  top: 1900px;
+  color: white;
+  cursor: pointer;
+  transition: width 1s;
+}
+
+.e1 {
+  font-size: 44px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: impact;
+}
+
+.ep1 {
+  font-size: 24px;
+  padding-top: 5px;
+}
+
+.first:hover {
+   width:47%;
+}
+
+.second {
+  width: 49%;
+  left: 51%;
+  text-align: left;
+  position: absolute;
+  top: 1900px;
+  color: white;
+  cursor: pointer;
+  transition: left 1s;
+}
+
+.e2 {
+  font-size: 44px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-family: impact;
+}
+
+.ep2 {
+  font-size: 24px;
+  padding-top: 5px;
+}
+
+.second:hover {
+   left: 53%;
+}
+
+.fa-facebook,.fa-twitter,.fa-youtube,.fa-instagram{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: crimson;
+  color: white;
+}
+
+.share{
+  padding-left: 39%;
+  padding-top: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+}
+
+
+
+
