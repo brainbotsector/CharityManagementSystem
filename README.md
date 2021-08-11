@@ -12,3 +12,5 @@ can buy the customized products. The money generated from online shopping will b
   -Samiksha S Mobarkar
   -Aditi S More
   -Siddhita S Salunke
+  # Screenshots
+![git1](https://user-images.githubusercontent.com/88769793/129022014-fae9a833-5267-43bd-9c2c-d66c18f4ed95.PNG)
