@@ -1,2 +1,2 @@
 # CharityManagementSystem
-This project is developed using Java, CSS and MySQL.
+This project is developed using Php,Java, CSS and MySQL.
