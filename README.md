@@ -1,5 +1,5 @@
 # CharityManagementSystem
-This project is developed using Php,Java, CSS and MySQL.
+This project is developed using Php,HTML, CSS and MySQL.
 # Bet on Better
 The charity website “Bet on Better” is to create an e-Information about the donor and organization that are
 related to donations. Through this application any person who is interested in donating the can register himself.
